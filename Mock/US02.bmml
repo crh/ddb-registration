@@ -1,0 +1,49 @@
+<mockup version="1.0" skin="sketch" measuredW="818" measuredH="614" mockupW="800" mockupH="600">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="18" y="14" w="800" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DDB%20Registration%0Ahttp%3A//somewhere</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::FieldSet" x="118" y="150" w="600" h="400" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Unterstandort%20FIZ%20Berlin%20erg%E4nzen</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="389" y="459" w="-1" h="-1" measuredW="144" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>US03%26bm%3BUS03.bmml%26bm%3BUS03.bmml%26bm%3BUS03.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22371%2C445%2C515%2C472%22%20href%3D%22US03.bmml%22%20alt%3D%22US03%22%20id%3D%2216%22/%3E</map>
+        <text>Speichern%20und%20weiter</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="__group__" x="133" y="195" w="290" h="21" measuredW="290" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="150" h="21" measuredW="84" measuredH="21" zOrder="0" locked="false" isInGroup="22">
+          <controlProperties>
+            <align>right</align>
+            <text>Georeferenz%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="150" y="0" w="-1" h="-1" measuredW="140" measuredH="21" zOrder="1" locked="false" isInGroup="22">
+          <controlProperties>
+            <text>49%2C934598%20/%2013%2C84373</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Map" x="133" y="243" w="400" h="214" measuredW="252" measuredH="222" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::RoundButton" x="310" y="298" w="22" h="22" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16750848</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="133" y="220" w="327" h="21" measuredW="327" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <text>Zum%20Korrigieren%20der%20Georeferenz%2C%20Marker%20verschieben.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

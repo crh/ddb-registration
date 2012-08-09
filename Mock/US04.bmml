@@ -1,0 +1,44 @@
+<mockup version="1.0" skin="sketch" measuredW="818" measuredH="614" mockupW="800" mockupH="600">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="18" y="14" w="800" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DDB%20Registration%0Ahttp%3A//somewhere</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::FieldSet" x="118" y="150" w="600" h="400" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Unterstandort%20FIZ%20Berlin%20erg%E4nzen</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="465" y="397" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>US01%26bm%3BUS01.bmml%26bm%3BUS01.bmml%26bm%3BUS01.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22447%2C383%2C511%2C410%22%20href%3D%22US01.bmml%22%20alt%3D%22US01%22%20id%3D%2216%22/%3E</map>
+        <text>Weiter</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="133" y="195" w="-1" h="-1" measuredW="265" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>M%F6chten%20Sie%20einen%20Unterstandort%20hinzuf%FCgen%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="263" y="274" w="325" h="152" measuredW="321" measuredH="105" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>US01%26bm%3BUS01.bmml%26bm%3BUS01.bmml%26bm%3BUS01.bmml%2CUS01%26bm%3BUS01.bmml%26bm%3BUS01.bmml%26bm%3BUS01.bmml%2CUS01%26bm%3BUS01.bmml%26bm%3BUS01.bmml%26bm%3BUS01.bmml%2CUS01%26bm%3BUS01.bmml%26bm%3BUS01.bmml%26bm%3BUS01.bmml%2COverview%26bm%3BOverview.bmml%26bm%3BOverview.bmml%26bm%3BOverview.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22245%2C260%2C570%2C281%22%20href%3D%22US01.bmml%22%20alt%3D%22US01%22%20id%3D%2235_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22245%2C281%2C570%2C302%22%20href%3D%22US01.bmml%22%20alt%3D%22US01%22%20id%3D%2235_1%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22245%2C302%2C570%2C323%22%20href%3D%22US01.bmml%22%20alt%3D%22US01%22%20id%3D%2235_2%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22245%2C323%2C570%2C344%22%20href%3D%22US01.bmml%22%20alt%3D%22US01%22%20id%3D%2235_3%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22245%2C344%2C570%2C365%22%20href%3D%22Overview.bmml%22%20alt%3D%22Overview%22%20id%3D%2235_4%22/%3E%0A</map>
+        <text>%28%29%20Ja%2C%20zu%20*FIZ%20Berlin*%20einen%20oder%20mehrere%20Unter-%0A%09standorte%20hinzuf%FCgen.%0A%28o%29%20Ja%2C%20zu%20*FIZ%20Karlsruhe*%20einen%20oder%20mehrere%20weitere%20%0A%09Unterstandorte%20hinzuf%FCgen.%0A%28%20%29%20Nein%2C%20weiter%20ohne%20weitere%20Unterstandorte.</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="588" y="287" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>HelpIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::StickyNote" x="623" y="199" w="173" h="119" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Vorerst%20nur%20eine%20Ebene%20Unterstandorte.%20HS04%20kann%20nachgenutzt%20werden%21%3F</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

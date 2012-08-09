@@ -1,0 +1,35 @@
+<mockup version="1.0" skin="sketch" measuredW="818" measuredH="614" mockupW="800" mockupH="600">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="18" y="14" w="800" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DDB%20Registration%0Ahttp%3A//somewhere</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::VRule" x="397" y="211" w="-1" h="100" measuredW="5" measuredH="100" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Link" x="417" y="247" w="-1" h="-1" measuredW="103" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Reg01%26bm%3BReg01.bmml%26bm%3BReg01.bmml%26bm%3BReg01.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22399%2C233%2C502%2C254%22%20href%3D%22Reg01.bmml%22%20alt%3D%22Reg01%22%20id%3D%224%22/%3E</map>
+        <text>Neu%20Registrieren</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="__group__" x="274" y="243" w="108" h="36" measuredW="108" measuredH="36" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Overview%26bm%3BOverview.bmml%26bm%3BOverview.bmml%26bm%3BOverview.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22256%2C229%2C364%2C265%22%20href%3D%22Overview.bmml%22%20alt%3D%22Overview%22%20id%3D%226%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Link" x="0" y="0" w="-1" h="-1" measuredW="106" measuredH="21" zOrder="0" locked="false" isInGroup="6">
+          <controlProperties>
+            <text>Mit%20bestehendem</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="0" y="15" w="-1" h="-1" measuredW="108" measuredH="21" zOrder="1" locked="false" isInGroup="6">
+          <controlProperties>
+            <text>Account%20anmelden</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

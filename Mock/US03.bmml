@@ -1,0 +1,155 @@
+<mockup version="1.0" skin="sketch" measuredW="818" measuredH="614" mockupW="800" mockupH="600">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="18" y="14" w="800" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DDB%20Registration%0Ahttp%3A//somewhere</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::FieldSet" x="118" y="150" w="600" h="400" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Unterstandort%20FIZ%20Berlin%20erg%E4nzen</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="__group__" x="133" y="219" w="400" h="27" measuredW="400" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="150" y="0" w="250" h="-1" measuredW="79" measuredH="27" zOrder="0" locked="false" isInGroup="12">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="3" w="150" h="21" measuredW="103" measuredH="21" zOrder="1" locked="false" isInGroup="12">
+          <controlProperties>
+            <align>right</align>
+            <text>Webseite%20/%20URL%3A</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="389" y="384" w="-1" h="-1" measuredW="144" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>US04%26bm%3BUS04.bmml%26bm%3BUS04.bmml%26bm%3BUS04.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22371%2C370%2C515%2C397%22%20href%3D%22US04.bmml%22%20alt%3D%22US04%22%20id%3D%2216%22/%3E</map>
+        <text>Speichern%20und%20weiter</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="__group__" x="133" y="192" w="400" h="27" measuredW="400" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="150" y="0" w="250" h="-1" measuredW="79" measuredH="27" zOrder="0" locked="false" isInGroup="22">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="3" w="150" h="21" measuredW="52" measuredH="21" zOrder="1" locked="false" isInGroup="22">
+          <controlProperties>
+            <align>right</align>
+            <text>ISIL-ID%3A</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="24" controlTypeID="__group__" x="133" y="245" w="400" h="27" measuredW="400" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="150" y="0" w="250" h="-1" measuredW="79" measuredH="27" zOrder="0" locked="false" isInGroup="24">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="3" w="150" h="21" measuredW="111" measuredH="21" zOrder="1" locked="false" isInGroup="24">
+          <controlProperties>
+            <align>right</align>
+            <text>Alternative%20URL%201%3A</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="25" controlTypeID="__group__" x="133" y="299" w="400" h="23" measuredW="400" measuredH="23" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="1" w="150" h="21" measuredW="104" measuredH="21" zOrder="0" locked="false" isInGroup="25">
+          <controlProperties>
+            <align>right</align>
+            <text>Sektion%20/%20Sparte%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::ComboBox" x="150" y="0" w="250" h="-1" measuredW="90" measuredH="23" zOrder="1" locked="false" isInGroup="25">
+          <controlProperties>
+            <state>closed</state>
+            <text>Forschung</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="30" controlTypeID="__group__" x="133" y="272" w="400" h="27" measuredW="400" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="150" y="0" w="250" h="-1" measuredW="79" measuredH="27" zOrder="0" locked="false" isInGroup="30">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="3" w="150" h="21" measuredW="113" measuredH="21" zOrder="1" locked="false" isInGroup="30">
+          <controlProperties>
+            <align>right</align>
+            <text>Alternative%20URL%202%3A</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="33" controlTypeID="__group__" x="133" y="325" w="484" h="57" measuredW="484" measuredH="57" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="150" h="21" measuredW="106" measuredH="21" zOrder="0" locked="false" isInGroup="33">
+          <controlProperties>
+            <align>right</align>
+            <text>Bildmarke%20/%20Logo%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="150" y="0" w="250" h="57" measuredW="334" measuredH="74" zOrder="1" locked="false" isInGroup="33">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <src>http%3A//www.fiz-karlsruhe.de/fileadmin/img/FIZ/FIZ_Karlsruhe_Logos/FIZ-Karlsruhe-dt_1.png</src>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="402" y="2" w="82" h="27" measuredW="82" measuredH="27" zOrder="2" locked="false" isInGroup="33">
+          <controlProperties>
+            <text>Hochladen</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Icon" x="533" y="197" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>HelpIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="533" y="224" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>HelpIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="533" y="250" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>HelpIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Icon" x="531" y="277" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>HelpIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Icon" x="531" y="303" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>HelpIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Icon" x="533" y="362" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>HelpIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

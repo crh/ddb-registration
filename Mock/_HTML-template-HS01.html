@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+#header, #footer{
+background-color:#DDD;
+color:#151515;
+}
+</style>
+</head>
+	
+	<!--
+		* Should we use HTML5 Elements instead of IDs where possible? E.g. ID "header" or header-Element?
+		* registration-container should be a class no ID (FRS)
+		* Class fields-container should be field-container (FRS)
+		* Textarea without rows attribute?
+	-->
+	
+<body>
+	<div id="header" >
+		<div id="brand">Logo and Name</div>
+		<div id="nav"></div>
+		<div id="login"></div>
+	</div>
+	<div id="content">
+		<div id="registration_container">
+			<div class="registration-commentary">
+				<p>In diesem Schritt legen Sie eine Institution mit Bezeichnung und Adresse an.</p>
+			</div>
+			<!-- Should be surrounded by form -->
+			<div id="name-container" class="fields-container">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+			</div>
+			<div id="kuerzel-container" class="fields-container">
+				<label for="kuerzel">K&uuml;rzel:</label>
+				<input type="text" id="kuerzel" name="kuerzel">
+			</div>
+			<div id="beschreibung-container" class="fields-container">
+				<label for="beschreibung">Beschreibung:</label>
+				<textarea rows="4" cols="" id="beschreibung" name="beschreibung"></textarea>
+			</div>
+			<div id="adresszusatz-container" class="fields-container">
+				<label for="adresszusatz">Adresszusatz:</label>
+				<input type="text" id="adresszusatz" name="adresszusatz">
+			</div>
+			<div id="strasse-container" class="fields-container">
+				<label for="strasse">Stra&szlig;e:</label>
+				<input type="text" id="strasse" name="strasse">
+			</div>
+			<div id="plz-container" class="fields-container">
+				<label for="plz">PLZ:</label>
+				<input type="text" id="plz" name="plz">
+			</div>
+			<div id="ort-container" class="fields-container">
+				<label for="ort">Ort:</label>
+				<input type="text" id="ort" name="ort">
+			</div>
+			</div>
+			<div id="bundesland-container" class="fields-container">
+				<label for="bundesland">Bundesland:</label>
+				<input type="text" id="bundesland" name="bundesland">
+			</div>
+			
+			<!-- We want to wrap this input with a div?-->
+			<input type="submit" value="Registrieren">
+			
+			<!-- Form surrounding end-->
+		</div>
+	</div>
+	<div id="footer">
+		Footer here
+		<div id="nav"></div>
+		<div id="rights"></div>
+	</div>
+</body>
+</html>
