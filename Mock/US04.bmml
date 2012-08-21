@@ -35,9 +35,34 @@
         <icon>HelpIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="37" controlTypeID="com.balsamiq.mockups::StickyNote" x="623" y="199" w="173" h="119" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::FieldSet" x="118" y="150" w="600" h="400" measuredW="200" measuredH="170" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Vorerst%20nur%20eine%20Ebene%20Unterstandorte.%20HS04%20kann%20nachgenutzt%20werden%21%3F</text>
+        <text>Hauptstandort%20FIZ%20Karlsruhe%20erg%E4nzen</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Button" x="465" y="371" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>US01%26bm%3BUS01.bmml%26bm%3BUS01.bmml%26bm%3BUS01.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22447%2C357%2C511%2C384%22%20href%3D%22US01.bmml%22%20alt%3D%22US01%22%20id%3D%2239%22/%3E</map>
+        <text>Weiter</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="133" y="195" w="-1" h="-1" measuredW="265" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>M%F6chten%20Sie%20einen%20Unterstandort%20hinzuf%FCgen%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::RadioButtonGroup" x="263" y="274" w="-1" h="-1" measuredW="321" measuredH="42" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>US01%26bm%3BUS01.bmml%26bm%3BUS01.bmml%26bm%3BUS01.bmml%2COverview%26bm%3BOverview.bmml%26bm%3BOverview.bmml%26bm%3BOverview.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22245%2C260%2C566%2C281%22%20href%3D%22US01.bmml%22%20alt%3D%22US01%22%20id%3D%2241_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22245%2C281%2C566%2C302%22%20href%3D%22Overview.bmml%22%20alt%3D%22Overview%22%20id%3D%2241_1%22/%3E%0A</map>
+        <text>%28o%29%20Ja%2C%20einen%20oder%20mehrere%20Unterstandorte%20hinzuf%FCgen.%0A%28%20%29%20Nein%2C%20weiter%20ohne%20weitere%20Unterstandorte.</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Icon" x="588" y="287" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>HelpIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
   </controls>

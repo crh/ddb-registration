@@ -39,10 +39,10 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="133" y="220" w="327" h="21" measuredW="327" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="133" y="220" w="400" h="21" measuredW="353" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13369344</color>
-        <text>Zum%20Korrigieren%20der%20Georeferenz%2C%20Marker%20verschieben.</text>
+        <text>Zum%20Korrigieren%20der%20Georeferenz%20bitte%20Marker%20verschieben.</text>
       </controlProperties>
     </control>
   </controls>

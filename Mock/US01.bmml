@@ -44,7 +44,7 @@
       <controlProperties>
         <href>US02%26bm%3BUS02.bmml%26bm%3BUS02.bmml%26bm%3BUS02.bmml</href>
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22300%2C403%2C515%2C430%22%20href%3D%22US02.bmml%22%20alt%3D%22US02%22%20id%3D%2216%22/%3E</map>
-        <text>Hauptstandort%20anlegen%20und%20weiter</text>
+        <text>Unterstandort%20anlegen%20und%20weiter</text>
       </controlProperties>
     </control>
     <control controlID="17" controlTypeID="__group__" x="133" y="301" w="400" h="27" measuredW="400" measuredH="27" zOrder="5" locked="false" isInGroup="-1">

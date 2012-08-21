@@ -32,22 +32,17 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="24" controlTypeID="com.balsamiq.mockups::StickyNote" x="686" y="169" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="5" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Nur%20wenn%20Adresse%20in%20vorherigem%20Schritt.</text>
-      </controlProperties>
-    </control>
     <control controlID="25" controlTypeID="com.balsamiq.mockups::Map" x="133" y="243" w="400" h="214" measuredW="252" measuredH="222" zOrder="2" locked="false" isInGroup="-1"/>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::RoundButton" x="310" y="298" w="22" h="22" measuredW="32" measuredH="32" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::RoundButton" x="310" y="298" w="22" h="22" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16750848</color>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="133" y="220" w="327" h="21" measuredW="327" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="133" y="220" w="400" h="21" measuredW="353" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13369344</color>
-        <text>Zum%20Korrigieren%20der%20Georeferenz%2C%20Marker%20verschieben.</text>
+        <text>Zum%20Korrigieren%20der%20Georeferenz%20bitte%20Marker%20verschieben.</text>
       </controlProperties>
     </control>
   </controls>

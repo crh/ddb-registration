@@ -19,7 +19,7 @@
     </control>
     <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="133" y="195" w="570" h="42" measuredW="668" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Sie%20haben%20einen%20Hauptstandort%20mit%202%20Unterstandorten%20angelegt.%20W%E4hlen%20Sie%20einen%20Standort%20aus%20um%20ihn%20zu%20Bearbeiten.</text>
+        <text>Sie%20haben%20einen%20Hauptstandort%20mit%203%20Unterstandorten%20angelegt.%20W%E4hlen%20Sie%20einen%20Standort%20aus%20um%20ihn%20zu%20Bearbeiten.</text>
       </controlProperties>
     </control>
     <control controlID="36" controlTypeID="com.balsamiq.mockups::Tree" x="133" y="238" w="570" h="112" measuredW="300" measuredH="225" zOrder="4" locked="false" isInGroup="-1">
@@ -47,6 +47,11 @@
         <href>End%26bm%3BEnd.bmml%26bm%3BEnd.bmml%26bm%3BEnd.bmml</href>
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22338%2C469%2C435%2C496%22%20href%3D%22End.bmml%22%20alt%3D%22End%22%20id%3D%2239%22/%3E</map>
         <text>Abschliessen</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::StickyNote" x="582" y="424" w="221" h="145" measuredW="109" measuredH="123" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%22Abschliessen%22%20f%FChrt%20zu%20einer%20Seite%20auf%20der%20alle%20Eingaben%20detailiert%20gelistet%20sind.%20Best%E4tigung%20f%FChrt%20dann%20zur%20Seite%20%22Registrierung%20abgeschlossen%22.</text>
       </controlProperties>
     </control>
   </controls>
