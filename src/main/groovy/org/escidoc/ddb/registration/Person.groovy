@@ -73,7 +73,7 @@ class Person{
 			id : this.id,
 			title : this.title,
 			salutation : this.salutation,
-			surName : this.sureName,
+			sureName : this.sureName,
 			foreName : this.foreName,
 			jobTitle : this.jobTitle,
 			telephoneNumber : this.telephoneNumber,

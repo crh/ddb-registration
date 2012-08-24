@@ -4,6 +4,9 @@ if (!session) {
     session = request.getSession(true)
 }
 
+def test = new Person([id: "uid1342438318062", title: "Master Degree Sw Ing.", salutation: "Herr", sureName: "Emiliano", foreName: "Masi", telephoneNumber: "+49 888", faxNumber: "+49 777", email: "emiliano@masi.it"])
+def persons = test.getAllPersons();
+
 if (!session.groovlet) {
     session.groovlet = 'Groovlets rock!'
 }
@@ -27,5 +30,12 @@ html.html {
                 li "${it.key} = ${it.value}"
             }
         }
+		
+		h1 'Persons'
+		ul {
+			persons.each {
+				li "${it.uid}"
+			}
+		}
     }
 }
