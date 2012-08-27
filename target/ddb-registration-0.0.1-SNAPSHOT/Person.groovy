@@ -1,4 +1,3 @@
-package org.escidoc.ddb.registration
 import groovyx.net.http.*
 import static groovyx.net.http.ContentType.JSON
 import static groovyx.net.http.ContentType.URLENC
