@@ -120,11 +120,11 @@ class Person{
 			}
 		}
 	}
-	/*
+	
 	static void main(def args){
-		def test = new Person([id: "uid1342438318062", title: "Master Degree Sw Ing.", salutation: "Herr", sureName: "Emiliano", foreName: "Masi", telephoneNumber: "+49 888", faxNumber: "+49 777", email: "emiliano@masi.it"])
+		def test = new Person([id: "uid1342438788064", sureName: "Emiliano", email: "emiliano@masi.it"])
 		def persons = test.getAllPersons();
 		println persons.size()
 		test.postPerson()
-	}*/
+	}
 }

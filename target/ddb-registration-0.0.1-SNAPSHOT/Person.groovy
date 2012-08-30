@@ -29,7 +29,7 @@ class Person{
 		this.email = personData.email
 	}
 	
-	List getAllPersons() {
+	static List getAllPersons() {
 		def http = new HTTPBuilder("http://141.66.8.240:8080")
 		def res = []
 		http.get( path: '/aas/persons/', query: [id: 'httpbuilder']){ resp, json ->
@@ -54,7 +54,7 @@ class Person{
 		}*/
 		return res
 	}
-	Person getPerson(id){
+	static Person getPerson(id){
 		def http = new HTTPBuilder("http://141.66.8.240:8080")
 		Person res = new Person()
 		http.get( path: '/aas/persons/'+id, query: [id: 'httpbuilder']){ resp, json ->
@@ -92,7 +92,7 @@ class Person{
 					id : this.id,
 					title : this.title,
 					salutation : this.salutation,
-					surname : this.surname,
+					sureName : this.sureName,
 					foreName : this.foreName,
 					jobTitle : this.jobTitle,
 					telephoneNumber : this.telephoneNumber,

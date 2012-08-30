@@ -1,9 +1,9 @@
-
 def method = request.method
 
 if (!session) {
     session = request.getSession(true)
 }
+//forward 'test2.html'
 
 def test = new Person([id: "uid1342438318062", title: "Master Degree Sw Ing.", salutation: "Herr", sureName: "Emiliano", foreName: "Masi", telephoneNumber: "+49 888", faxNumber: "+49 777", email: "emiliano@masi.it"])
 def persons = test.getAllPersons();
@@ -37,6 +37,10 @@ html.html {
 			persons.each {
 				li "${it.id}"
 			}
+		}
+		div "${request.getParameters().id}"
+		form ('action': 'http://www.google.com'){
+			input ('type': 'submit', 'value':'culo')
 		}
     }
 }

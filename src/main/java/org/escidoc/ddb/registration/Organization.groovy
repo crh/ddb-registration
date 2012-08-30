@@ -33,6 +33,7 @@ class Organization{
 	String created
 	String modified
 	String status
+	String cn
 	
 	void fillOrganizationData(Map orgData){
 		this.id = orgData.id
@@ -58,6 +59,7 @@ class Organization{
 		this.created = orgData.created
 		this.modified = orgData.modified
 		this.status = orgData.status
+		this.cn = orgData.cn
 	}
 	
 	List getAllOrganizations() {
@@ -124,7 +126,8 @@ class Organization{
 					orgParent: this.orgParent,
 					created: this.created,
 					modified: this.modified,
-					status: this.status
+					status: this.status,
+					cn: this.id
 				]
 		http.post(path: '/aas/organizations', body: postBody, requestContentType: JSON){ resp ->
 			println "Response status: ${resp.statusLine}"
@@ -224,8 +227,36 @@ class Organization{
 		return address;
 	}
 	static void main(def args){
-		def test = new Organization()
-		def orgs = test.getAllOrganizations();
+		def post = [
+			id : '99900399',
+			displayName : 'Masi and Co',
+			abbreviation: '',
+			description: '',
+			legalStatus:'',
+			category:'Archiv',
+			address: [
+				street: 'Eilper Strasse',
+				houseIdentifier: '71-75',
+				addressSupplement:'',
+				postalCode: '58091',
+				city: 'Hagen',
+				country: 'de',
+				latitude: '51.3474',
+				longitude: '7.4904'
+			],
+			telephone : '+49 123',
+			fax : '+49 123',
+			email : 'emiliano@masi.it',
+			url: 'http://www.historisches-centrum.de',
+			logo: '',
+			orgParent: '00001475',
+			created: '2012-08-16T08:31:47+0200',
+			modified: '2012-08-24T16:02:41+0200',
+			status: 'pending'
+		]
+		def test = new Organization(post)
+		def orgs = test.getAllOrganizations()
+		test.postOrganization()
 		//def orgs = test.updateOrganization("99900299,00001475")
 		println orgs.size()
 		//test.postOrganization()
