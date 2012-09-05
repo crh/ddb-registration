@@ -2,6 +2,7 @@ import groovyx.net.http.*
 import static groovyx.net.http.ContentType.JSON
 import static groovyx.net.http.ContentType.URLENC
 import groovy.json.*
+import org.apache.http.impl.cookie.BasicClientCookie
 
 //TODO: Create method for the interpretation of the errors
 
@@ -118,6 +119,12 @@ class Person{
 				println resp.status
 			}
 		}
+	}
+	
+	void setCookieID(){
+		def http = new HTTPBuilder("http://localhost:8080/ddb-registration/")
+		def cookie = new BasicClientCookie("culo", "cane")
+		http.client.cookieStore.addCookie cookie
 	}
 	static void main(def args){
 		def test = new Person([id: "uid1342438318062", title: "Master Degree Sw Ing.", salutation: "Herr", sureName: "Emiliano", foreName: "Masi", telephoneNumber: "+49 888", faxNumber: "+49 777", email: "emiliano@masi.it"])

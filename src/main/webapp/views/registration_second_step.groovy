@@ -42,7 +42,7 @@ html.html {
 						input ('type':'input', 'id':'faxnumber', 'name':'faxnumber')
 					}
 					div ('id':'jobtitle-container', 'class':'fields-container'){
-						label ('for':'jobtitle', 'T&ouml;tigkeitsbezeichnung:')
+						label ('for':'jobtitle', 'Tötigkeitsbezeichnung:')
 						input ('type':'input', 'id':'jobtitle', 'name':'jobtitle')
 					}
 					input ('type':'submit', 'value':'Personendaten speichern und weiter')
