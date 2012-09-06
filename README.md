@@ -1,16 +1,37 @@
 DDB Registration
 ================
 
-DDB Registration is a Web User Interface for regitering organization to
+DDB Registration is a non-JavaScript Web Front End for registering user and organization to
 Deutsche Digital Bibliothek[http://ddb.de].
+
+# Requirements
+
+You need an access to DDB Authentification and Authorization Service[http://141.66.8.240:8080/aas]
 
 # Quick Start
 
-  TODO
+```
+>mvn jetty:run
+Open http://localhost:3000/ddb-registration/index.groovy in a Web Browser.
+```
+
+Port 3000 is already used?
+```
+>mvn -D jetty.port=80 jetty:run
+```
+
+# Deployment
+
+```
+>mvn clean package
+>cp target/ddb-registration-{version-number}.war {java-servlet-container}
+```
+
 
 # Developers
 
-  TODO
+ddb-registration Front End is developed using Groovy 2.0.1 and use Apache Maven as package management.
+
 
 # Authors
 

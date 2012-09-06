@@ -1,3 +1,21 @@
+/**
+ *  Licensed to the Apache Software Foundation (ASF) under one
+ *  or more contributor license agreements.  See the NOTICE file
+ *  distributed with this work for additional information
+ *  regarding copyright ownership.  The ASF licenses this file
+ *  to you under the Apache License, Version 2.0 (the
+ *  "License"); you may not use this file except in compliance
+ *  with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing,
+ *  software distributed under the License is distributed on an
+ *  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ *  KIND, either express or implied.  See the License for the
+ *  specific language governing permissions and limitations
+ *  under the License.
+ */
 import groovyx.net.http.*
 import javax.servlet.http.*
 import org.apache.http.impl.cookie.BasicClientCookie
@@ -5,8 +23,8 @@ import org.apache.http.impl.cookie.BasicClientCookie
 def hasCookies = false
 def session_id = ""
 if(request.getCookies()){
-	hasCookies = true
-	session_id = checkCookies(request.getCookies(),'session_id')
+    hasCookies = true
+    session_id = checkCookies(request.getCookies(),'session_id')
 }
 //def http = new HTTPBuilder("http://localhost:8080/ddb-registration")
 /*
@@ -54,7 +72,9 @@ else if(params.action !=null && params.size() > 2 && params.action == "new_regis
 //and then we pass to the third step
 else if(hasCookies && session_id && params.action == "new_organization" && params.step == "1"){
 	try{
-		def person = new Person([id: session_id, title: params.title, salutation: params.salutation, sureName: params.surename, foreName: params.forename, telephoneNumber: params.telephonenumber, faxNumber: params.faxnumber, email: params.email])
+        def person = new Person([id: session_id, title: params.title, salutation: params.salutation, 
+            sureName: params.surename, foreName: params.forename, telephoneNumber: params.telephonenumber, 
+            faxNumber: params.faxnumber, email: params.email])
 		person.updatePerson(session_id)
 	}
 	catch (Throwable e){
@@ -105,7 +125,7 @@ else{
 				body {
 					div ('id': 'header')
 					div ('id': 'content'){
-						div "Mit bestehendem Account onmelden"
+						div "Mit bestehendem Account anmelden"
 						div {
 							a ('href':'index.groovy?action=new_registration', 'Neu Registrieren')
 						}
@@ -115,21 +135,22 @@ else{
 }
 
 public errorHTML(String error_msg){
-	def dfhtml = html.html{}
-	dfhtml += html.header{title 'error'}
-	dfhtml += html.body{
-							div ('id':'header')
-							div('id':'content'){
-								div ('class':'error', error_msg)
-							}
-						}
+    def dfhtml = html.html{}
+    dfhtml += html.header{title 'error'}
+    dfhtml += html.body{
+        div ('id':'header')
+        div('id':'content'){
+            div ('class':'error', error_msg)
+        }
+    }
 }
+
 public checkCookies(cookies,name){
-	res = ""
-	cookies.each {
-		if(it.name==name){
-			res=it.value
-		}	
-	}
-	return res
+    res = ""
+    cookies.each {
+        if(it.name==name){
+            res=it.value
+        }
+    }
+    return res
 }
